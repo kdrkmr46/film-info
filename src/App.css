@@ -16,21 +16,16 @@ body {
     width: 800px;
   }
   
-  img {
-    border-radius: 10px;
-    transition: all 1.7s;
-    &:hover {
-      opacity: 0.7;
-      cursor: pointer;
-      transform: scale(0.96);
-    }
-  }
+  
+  
   
   button {
     transition: all 1s;
     background-color: #17728e;
     color: white;
-    &:hover {
-      background-color: #1aaad6;
-    }
+    
+
+  }
+  button:hover{
+    background-color: #1aaad6;
   }

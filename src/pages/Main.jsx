@@ -5,7 +5,7 @@ import FilmYear from '../components/FilmYear'
 const Main = ({data}) => {
     const [filmIndex, setFilmIndex] = useState(0)
   return (
-    <div>
+    <div className='my-div'>
         <FilmYear year={data} filmIndex={filmIndex} setFilmIndex={setFilmIndex} />
         <FilmInfo film={data[filmIndex]}  />
     </div>
